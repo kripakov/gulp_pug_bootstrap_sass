@@ -97,3 +97,87 @@ body
 .section.description
 	background-color: #FFF
 	padding-top: 90px
+	margin-bottom: 90px
+	.sec1,.sec2,.sec3
+		h2
+			font-family: 'Montserrat-Bold'
+			font-size: 28px
+			line-height: 26px
+		p
+			font-family: 'Open-Sans-Light'
+			font-size: 18px
+			line-height: 22px
+.section.description, .section.portfolio
+	a 
+		text-transform: uppercase
+		text-decoration: none
+		color: $red
+		font-size: 14px
+		display: block
+		width: 60px
+		&:hover
+			background: url(../icons/right.png) no-repeat 48px 2px 
+.section.portfolio
+	margin-bottom: 70px
+	.mac
+		overflow: hidden
+		img
+			position: relative
+			left: -134px
+	h2 
+		font-family: 'Montserrat-Bold'
+		font-size: 32px
+		margin-bottom: 0px
+	p.strong
+		font-family: 'Open-Sans-Bold'
+		font-size: 15px
+	p.price,p.card
+		font-size: 15px
+		line-height: 19px
+		font-family: 'Open-Sans-Light'
+
+.section.team
+	margin-bottom: 60px
+	.team-top
+		h2
+			font-family: 'Montserrat-Bold'
+			font-size: 32px
+		p
+			font-size: 14px
+			font-family: 'Open-Sans-Light'
+.section.command
+	margin-bottom: 123px
+	img
+		float: left
+		margin-right: 20px
+		border-radius: 65px
+		margin-bottom: 20px
+	h2
+		font-size: 26px
+		font-family: 'Montserrat-Bold'
+	.proff
+		display: block
+		color: $red
+		margin-bottom: 10px
+		font-size: 16px
+	.proff, .desc
+		font-family: 'Open-Sans-Light'
+	.desc
+		font-size: 14px
+
+.section.border
+	margin-bottom: 50px
+	.b 
+		border-top: 1px solid #e5e5e5
+.section.footer
+	padding-bottom: 20px
+	ul
+		@extend .ulmnu;
+	ul
+		li
+			&:not(:last-child)
+				margin-right: 20px
+	span
+		float: right
+		font-family: 'Open-Sans-Light'
+		font-size: 16px
